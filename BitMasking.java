@@ -32,7 +32,7 @@ class BitMasking{
                 System.out.println("worker " + i + " and worker " + j + " works together on " + setcount + " days");
             }
         }
-
+        System.out.println("worker " + p1 + " and worker " + p2 + " works together on " + mx + " days");
     }
     static int Countsetbit(int n){
         int count =0;
