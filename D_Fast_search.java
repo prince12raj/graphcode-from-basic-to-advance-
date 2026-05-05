@@ -15,7 +15,6 @@ public class D_Fast_search {
             int r = sc.nextInt();
             int left = lowerBound(a, l);
             int right = upperBound(a, r);
-
             sb.append(right - left).append(" ");
         }
         System.out.println(sb.toString());
